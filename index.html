@@ -27,6 +27,7 @@
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
+  <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 
 </head>
 <body>
@@ -51,7 +52,7 @@
           <li><a href="#faq">F.A.Q</a></li>
           <li><a href="#venue">Venue</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li class="buy-tickets"><a href="#">Register Interest</a></li>
+          <li class="buy-tickets"><a href="#">Buy Tickets</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -386,6 +387,28 @@
         </section>
 
         <!--==========================
+          Subscribe Section
+        ============================-->
+        <section id="subscribe">
+          <div class="container wow fadeInUp">
+            <div class="section-header">
+              <h2>Subscribe</h2>
+            </div>
+
+            <form action="https://gmail.us7.list-manage.com/subscribe/post?u=d73d0915a5b14a103b1669a2c&amp;id=67b5d0ffa2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div class="form-row justify-content-center">
+                <div class="col-auto">
+                  <center><input type="text" class="form-control" name="EMAIL" id="mce-EMAIL" placeholder="Enter your Email"></center>
+                  <center><button type="submit" name="subscribe" id="mc-embedded-subscribe">Subscribe</button></center>
+                </div>
+              </div>
+            </form>
+
+          </div>
+        </section>
+
+
+        <!--==========================
           Sponsors Section
         ============================-->
         <section id="supporters" class="section-with-bg wow fadeInUp">
@@ -606,7 +629,6 @@
       </div>
     </section>
 
-
     <!--==========================
       Contact Section
     ============================-->
@@ -615,33 +637,38 @@
       <div class="container">
 
         <div class="section-header">
-          <h2>Get in Touch</h2>
+          <h2>GET IN TOUCH</h2>
           <p>CONTACT US</p>
         </div>
 
         <div class="form">
           <div id="sendmessage">Your message has been sent. Thank you!</div>
           <div id="errormessage"></div>
-          <form action="contact-form-handler.php" method="post" role="form" class="contactForm">
+          <form action="https://gmail.us7.list-manage.com/subscribe/post?u=d73d0915a5b14a103b1669a2c&amp;id=67b5d0ffa2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate class="contactForm">
             <div class="form-row">
               <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <input type="text"  name="NAME" class="form-control" id="mce-NAME" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                 <div class="validation"></div>
               </div>
               <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <input type="email" class="form-control" name="EMAIL" id="mce-EMAIL" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
                 <div class="validation"></div>
               </div>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <input type="text" class="form-control" name="SUBJECT" id="mce-SUBJECT" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
               <div class="validation"></div>
             </div>
             <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <textarea class="form-control" name="MESSAGE" rows="5" data-rule="required" id="mce-MESSAGE" data-msg="Please write something for us" placeholder="Message"></textarea>
               <div class="validation"></div>
             </div>
-            <div class="text-center"><button type="submit">Send Message</button></div>
+            <div id="mce-responses" class="clear">
+                  <div class="response" id="mce-error-response" style="display:none"></div>
+                  <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d73d0915a5b14a103b1669a2c_67b5d0ffa2" tabindex="-1" value=""></div>
+            <center><div class="text-center"><button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">Send Message</button></div></center>
           </form>
         </div>
 
