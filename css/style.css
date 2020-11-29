@@ -1404,7 +1404,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 0;
   padding: 9px 25px;
   cursor: pointer;
-  background: #f82249;
+  background: #7578a5;
   color: #fff;
   transition: all 0.3s ease;
   outline: none;
@@ -1413,5 +1413,5 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #subscribe button:hover {
-  background: #e0072f;
+  background: #7578a5;
 }
