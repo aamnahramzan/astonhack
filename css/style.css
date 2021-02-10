@@ -917,7 +917,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   align-items: center;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.5);
-  height: 180px;
+  height: 200px;
 }
 
 #supporters .supporter-logo:hover img {
@@ -926,7 +926,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #supporters img {
-  transition: all 0.6s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 /*--------------------------------------------------------------
