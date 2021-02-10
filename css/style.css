@@ -897,7 +897,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #supporters {
-  padding: 60px 0;
+  padding: 80px 0;
 }
 
 #supporters .supporters-wrap {
@@ -907,7 +907,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #supporters .supporter-logo {
-  padding: 30px;
+  padding: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -930,48 +930,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #supporters img {
-  transition: all 0.4s ease-in-out;
-}
-
-/*--------------------------------------------------------------
-# supporters Section
---------------------------------------------------------------*/
-
-#partner {
-  padding: 60px 0;
-}
-
-#partner .supporters-wrap {
-  border-top: 1px solid #e0e5fa;
-  border-left: 1px solid #e0e5fa;
-  margin-bottom: 30px;
-}
-
-#partner .supporter-logo {
-  padding: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border-right: 1px solid #e0e5fa;
-  border-bottom: 1px solid #e0e5fa;
-  overflow: hidden;
-  background: rgba(255, 255, 255, 0.5);
-  height: 160px;
-}
-
-#partner .supporter-logo:hover img {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-}
-
-#partner img {
-  transition: all 0.4s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 
 /*--------------------------------------------------------------
