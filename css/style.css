@@ -1001,6 +1001,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-right: 20px;
 }
 
+.faq-link{
+  padding: 18px 0 !important;
+  display: inline-block !important;
+}
+
 #faq #faq-list i {
   font-size: 24px;
   position: absolute;
