@@ -949,7 +949,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 30px;
 }
 
-#supporters .supporter-logo {
+#supporters .supporter-logo-gold {
   padding: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -963,19 +963,41 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
   background: rgba(255, 255, 255, 0.5);
   height: 200px;
+  border: gold 5px solid;
 }
 
-
-
+#supporters .supporter-logo{
+  padding: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.5);
+  height: 200px;
+  border: silver 3px solid;
+}
 #supporters .supporter-logo:hover img {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
-
+#supporters .supporter-logo-gold:hover img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+#supporters .supporter-logo-gold img {
+  transition: all 0.4s ease-in-out;
+  width: 100%;
+  
+}
 #supporters img {
   transition: all 0.4s ease-in-out;
   width: 190px;
-  
   
 }
 
